@@ -158,7 +158,6 @@ span.tooltip:focus > span {
 
 /* styling for tooltip bubble */
 span.tooltip span {
-  visibility: hidden;
   width: 400px;
   background-color: black;
   color: white;
@@ -169,7 +168,7 @@ span.tooltip span {
   bottom: 100%;
   left: 50%;
   margin-left: -205px;
-
+  visibility: hidden;
 }
 
 /* styling for tooltip bubble arrow */
