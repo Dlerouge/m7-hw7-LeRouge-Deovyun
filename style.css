@@ -83,6 +83,7 @@ main > section.hero {
   /* make this banner stick to the top! */
   position: sticky;
   top: 0px;
+  z-index: 1;
 }
 
 section.hero > .call-to-action {
@@ -119,7 +120,7 @@ main > article img {
 }
 
 /*Dropcap code below */
-article p::first-letter {
+article p:first-of-type:first-letter {
   font-size: 50px;
   font-family: 'Times New Roman', Times, serif;
   padding-right: 15px;
@@ -169,6 +170,7 @@ span.tooltip span {
   left: 50%;
   margin-left: -205px;
   visibility: hidden;
+  z-index: 1;
 }
 
 /* styling for tooltip bubble arrow */
